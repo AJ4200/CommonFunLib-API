@@ -1,9 +1,11 @@
 @RestController
 
 public class apiController {
+
+    Generator generator = new Generator();
     int length;
     @GetMapping("/Generator/generatePassword/"+length)
-    public String hello() {
-        return "Hello World!";
+    public String generatePassword() {
+        return generator.generatePassword(length);
     }
 }
