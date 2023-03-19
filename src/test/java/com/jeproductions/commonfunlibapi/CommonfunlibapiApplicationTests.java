@@ -1,10 +1,10 @@
-package com.jeproductions.commonfunlib_api;
+package com.jeproductions.commonfunlibapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CommonfunlibApiApplicationTests {
+class CommonfunlibapiApplicationTests {
 
 	@Test
 	void contextLoads() {

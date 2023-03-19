@@ -1,13 +1,13 @@
-package com.jeproductions.commonfunlib_api;
+package com.jeproductions.commonfunlibapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CommonfunlibApiApplication {
+public class CommonfunlibapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CommonfunlibApiApplication.class, args);
+		SpringApplication.run(CommonfunlibapiApplication.class, args);
 	}
 
 }
