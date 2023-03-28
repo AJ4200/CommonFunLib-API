@@ -3,12 +3,13 @@ package com.jeproductions.commonfunlibapi;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import com.jeproductions.commonfunlibapi.Models.GeneratorModel;
-import com.jeproductions.restservice.Generator;
 
-import CommonFunLib
+import com.jeproductions.commonfunlibapi.Lib.Generator;
+import com.jeproductions.commonfunlibapi.Models.GeneratorModel;
 
 @RestController
+
+
 public class GeneratorController {
     Generator gen = new Generator();
     String password = "";
