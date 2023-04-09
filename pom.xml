@@ -14,9 +14,9 @@
 	<name>commonfunlibapi</name>
 	<description>API for CommonFunLib Java Library</description>
 	<properties>
-		<java.version>16</java.version> 
-<maven.compiler.target>16</maven.compiler.target>
-<maven.compiler.source>16</maven.compiler.source>
+    <java.version>11</java.version> 
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
 
 	</properties>
 
@@ -53,8 +53,8 @@
       <version>3.2.3</version>
       <configuration>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-	       <source>16</source>
-        <target>16</target>
+	       <source>11</source>
+        <target>11</target>
       </configuration>
     </plugin>
 		</plugins>
