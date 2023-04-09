@@ -14,8 +14,13 @@
 	<name>commonfunlibapi</name>
 	<description>API for CommonFunLib Java Library</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>16</java.version> 
+<maven.compiler.target>16</maven.compiler.target>
+<maven.compiler.source>16</maven.compiler.source>
+
 	</properties>
+
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -48,6 +53,8 @@
       <version>3.2.3</version>
       <configuration>
         <failOnMissingWebXml>false</failOnMissingWebXml>
+	       <source>16</source>
+        <target>16</target>
       </configuration>
     </plugin>
 		</plugins>
