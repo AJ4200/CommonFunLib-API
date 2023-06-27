@@ -7,6 +7,11 @@ const CommonFunctions = require('./Lib/CommonFunctions');
 const app = express();
 app.use(express.json());
 
+const cors = require('cors');
+
+// Enable CORS for all routes
+app.use(cors());
+
 // Create an instance of the Converter class
 const converter = new Converter();
 
