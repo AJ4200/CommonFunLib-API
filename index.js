@@ -66,6 +66,12 @@ app.get('/generate/name', (req, res) => {
   res.json({ name: randomName });
 });
 
+app.get('/generate/number', (req, res) => {
+  const { min, max } = req.query;
+  const randomNumber = generator.generateRandomNumber(min,max);
+  res.json({ randomNumber: randomNumber });
+});
+
 app.get('/hash/md5', (req, res) => {
   const { input } = req.query;
   const hashedValue = Hashing.md5(input);
