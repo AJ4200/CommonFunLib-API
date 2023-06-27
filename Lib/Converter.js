@@ -1,8 +1,9 @@
 const axios = require('axios');
+require('dotenv').config();
 
 class Converter {
   constructor() {
-    this.apiKey = process.env.FREECURRENCYAPI_KEY;
+    this.apiKey = process.env.FREECURRENCYAPI_KEY || 'your_default_api_key';
     this.exchangeRates = {};
   }
 
