@@ -3,7 +3,6 @@ const path = require('path');
 
 class Generator {
   constructor() {
-    this.rand = new Random();
     this.firstNames = [];
     this.lastNames = [];
 

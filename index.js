@@ -2,7 +2,7 @@ const express = require('express');
 const Converter = require('./Lib/Converter');
 const Generator = require('./Lib/Generator');
 const Hashing = require('./Lib/Hashing');
-const CommonFunctions = require('./CommonFunctions');
+const CommonFunctions = require('./Lib/CommonFunctions');
 
 const app = express();
 app.use(express.json());

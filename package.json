@@ -1,4 +1,8 @@
 {
+  "scripts": {
+  "start": "node index.js"
+},
+
   "name": "commonfunlib.api",
   "version": "1.0.0",
   "description": "common functions library",
