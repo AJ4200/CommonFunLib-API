@@ -2,11 +2,13 @@
 class CommonFunctions {
 
     static isEven(num) {
-      return num % 2 === 0;
+       if(num % 2 === 0);
+       return "true";
     }
   
     static isOdd(num) {
-      return num % 2 !== 0;
+      if(num % 2 !== 0);
+      return "true";
     }
   
     static factorial(num) {
@@ -32,14 +34,14 @@ class CommonFunctions {
   
     static isPrime(num) {
       if (num <= 1) {
-        return false;
+        return "false";
       }
       for (let i = 2; i < num; i++) {
         if (num % i === 0) {
-          return false;
+          return "false";
         }
       }
-      return true;
+      return "true";
     }
   
     static swapVariableValue(arr, i, j) {
