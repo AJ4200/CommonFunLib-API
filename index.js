@@ -72,6 +72,12 @@ app.get('/generate/number', (req, res) => {
   res.json({ randomNumber: randomNumber });
 });
 
+app.get('/generate/password', (req, res) => {
+  const { length } = req.query;
+  const pass = generator.generatePassword(length);
+  res.json({ password: pass });
+});
+
 app.get('/hash/md5', (req, res) => {
   const { input } = req.query;
   const hashedValue = Hashing.md5(input);
